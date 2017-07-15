@@ -41,5 +41,10 @@ namespace HelloWorld
         {
             return left / right;
         }
+
+        public double Devision(double left, double right)
+        {
+            return left / right;
+        }
     }
 }

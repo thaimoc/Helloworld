@@ -27,7 +27,8 @@ namespace HelloWorld
             Console.WriteLine($"The product of 5 and 7 is {calculator.Multiply(5, 7)}");
             Console.WriteLine($"The quotient of 20 and 3 is {calculator.Devision(20, 3)}");
             Console.WriteLine($"The modulus of 20 and 3 is {calculator.Modulus(20, 3)}");
-
+            Console.WriteLine($"The true quotient of 20 and 3 is {calculator.Devision(20.0, 3.0)}");
+            
 
             Console.ReadKey();
         }
