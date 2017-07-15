@@ -22,5 +22,14 @@ namespace HelloWorld
         {
             return left - right;
         }
+
+        public int Devision(int left, int right)
+        {
+            if (right == 0)
+            {
+                return 0;
+            }
+            return left / right;
+        }
     }
 }
