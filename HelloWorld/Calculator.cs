@@ -23,6 +23,11 @@ namespace HelloWorld
             return left - right;
         }
 
+        public int Multiply(int left, int right)
+        {
+            return left * right;
+        }
+
         public int Devision(int left, int right)
         {
             if (right == 0)
