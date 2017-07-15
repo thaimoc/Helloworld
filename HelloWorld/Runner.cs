@@ -25,7 +25,10 @@ namespace HelloWorld
 
             Console.WriteLine($"The deffirence between 5 and 7 is {calculator.Substract(5, 7)}");
             Console.WriteLine($"The product of 5 and 7 is {calculator.Multiply(5, 7)}");
+<<<<<<< Updated upstream
             Console.WriteLine($"The quotient of 20 and 4 is {calculator.Devision(20, 4)}");
+=======
+>>>>>>> Stashed changes
 
             Console.ReadKey();
         }
