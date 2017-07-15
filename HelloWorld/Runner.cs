@@ -22,6 +22,8 @@ namespace HelloWorld
             var calculator = new Calculator();
             int sum = calculator.Add(5, 7);
             Console.WriteLine(sum);
+
+            Console.WriteLine($"The deffirence between 5 and 7 is {calculator.Substract(5, 7)}");
             Console.ReadKey();
         }
     }
