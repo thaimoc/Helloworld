@@ -36,10 +36,5 @@ namespace HelloWorld
             }
             return left / right;
         }
-
-        public int Modulus(int left, int right)
-        {
-            return left / right;
-        }
     }
 }
